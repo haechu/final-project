@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>蒸蛋</title>
+  <link rel="stylesheet" href="f.css">
+</head>
+
+<body>
+  <div class="container">
+
+
+    <!--header-->
+    <section class="py-4">
+      <div class="header flex justify-content-between">
+        <h1 class="logo"><a href="f1.html" target="_blank"># 真 煮 單</a></h1>
+        <ul class="flex">
+          <li>
+            <a href="f2.html" class="menu">Weekly Top 9</a>
+          </li>
+
+
+
+          <li>
+            <a href="f6.html" class="menu">About Us</a>
+          </li>
+          <form class="site_search" action="/search" method="get" role="search">
+            <input class="search_input" name="ssse" placeholder="搜尋" type="text" />
+            <input class="search_btn" type="image" src="http://3.bp.blogspot.com/-fpi6-9d3JpQ/Vo0LXN6iUDI/AAAAAAAANPA/89JVfzXNtXg/s1600/search-icon.png" />
+            </form>
+        </ul>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="flex justify-content-between">
+        <ul class="flex100">
+          <li>
+            <a href="f5-1.html" class="menu2">Electric Caldron</a>
+          </li>
+
+          <li>
+            <a href="f5-2.html" class="menu2">Microwave</a>
+          </li>
+
+          <li>
+            <a href="f5-3.html" class="menu2">Oven</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--中間內容物-->
+  <div id="body">
+    <section>
+      <div class="recipe" style="margin-bottom: 100px; display: flex;width: 100%; height: 600px;">
+        <img src="pic003.jpg" id="pic1" style="width:30%;height:45%;border:100px;margin-left:15%;">
+        <div style="width: 55%; height: 400px;">
+          <div style="display: flex;width: 50%;">
+            <!--標題按讚塊-->
+            <h2 class="intro1" id="intro1">蒸蛋</h2>
+            <label>
+              <input type="button" id="bt" style="display: none;">
+              <div class="btnlike">Like</div>
+              <!--按讚-->
+            </label>
+            <img src="pic12.jpg"
+              style="width: 20px;height: 20px; margin-top: 53px;margin-left:10px;background-size: cover;padding: 0px;">
+            <div id="counter" style="width: 15px; height: 15px; margin-top: 53px;margin-left: 10px;"></div>
+          </div>
+          <!-- <hr size="1" width="650" class="hr1"> -->
+          <div style="width:50%; margin-left: 30px; word-break: break-all;">
+            <!--食材-->
+            <p class="ingredients">雞蛋 2顆<br></br>香菇 1-2朵<br></br>牛奶 100毫升<br></br>香菇水 50毫升<br></br>蔥花 適量<br><br></p>
+
+          </div>
+
+          <hr size="1" width="100%" style="margin-left: 25px;">
+          <div style="margin-left: 200px; width: 800px;word-break: break-all;height: 500px;position: relative;right: 550px;">
+            <!--作法-->
+            <p class="steps">1. 香菇先用50ml的熱水泡（記得留下香菇水）<br></br>2. 接著香菇切絲，再來將所有材料混合攪拌均勻，並且過篩2-3次<br></br>
+              3. 接著放入微波爐，用中低火微波9分鐘，拿出來撒上蔥花就完成嘍！！！<br></br>
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <hr size="1" width="90%" class="hr2">
+      <div class="container2">
+        <h1 style="text-align: center; padding-top: auto; color: rgb(53, 92, 128);">Feedback</h1>
+        <br>
+        Name <input size="60%" class="input1" id="in_name"></input>
+        <!--名字輸入-->
+        <div style="display: flex;">
+          <input size="60%" class="input2" id="in_msg"></input>
+          <!--訊息輸入-->
+          <label class="input3">
+            <!--圖片匯入-->
+            <input id="img" style="display:none;" type="file" name="file">
+            <img src="pic11.jpg" class="input3">
+          </label>
+          <div class="but1" onclick="Submit()">Submit</div>
+        </div>
+
+        <div class="down1" id="down1"  > <!--留言區-->
+          <div class="msg_box"><!--訊息區塊-->
+            <div class="box_s">
+             <h3 class='msg'>陳大明</h3><!--名字-->
+             <p class='msg'>做法簡單又很方便！</p><!--訊息-->
+           </div>
+           <div>
+             <img id="showimg" src='pic06.jpg' class="msg_img"/><!--縮圖-->
+            </div>
+         </div>
+        </div>
+      </div>
+    </section>
+    <div class='but1' style="position: relative; left:45%;margin-top: 50px;font-size: larger;"
+      onclick="location.href='f4.html'">More Comments</div>
+    <div id="footer">
+
+
+
+
+      <!--footer-->
+      <section>
+        <div class="footer mt-4 py-8">
+          <div class="container">
+            <div class="flex justify-content-between" style="width: 60%; margin-left: 15%;">
+              <ul>
+                <li>
+                  <a href="f6.html" class="menu">About Us</a>
+                </li>
+
+                <li>
+                  <a href="f2.html" class="menu">Weekly Top 9</a>
+                </li>
+
+
+              </ul>
+
+              <div class="text-right text-white">
+                  <a href="f1.html" style="font-size:30px; font-weight: bold;">＃ 真 煮 單</a>
+                <p>Make you cook easily.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  </div>
+
+  
+</body>
+<script src="msg_board.js"></script>
+
+</html>

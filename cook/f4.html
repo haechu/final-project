@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Message Board f4</title>
+        <link rel="stylesheet" href="f.css">
+    </head>
+    <body>
+         <div class="container">
+
+            <section class="py-4">
+                <div class="header flex justify-content-between">
+                    <h1 class="logo"><a href="f1.html" target="_blank"># 真 煮 單</a></h1>
+                    <ul class="flex">
+                        <li>
+                            <a href="f2.html" class="menu">Weekly Top 9</a>
+                        </li>
+
+
+                        <li>
+                            <a href="f6.html" class="menu">About Us</a>
+                        </li>
+                        <form class="site_search" action="/search" method="get" role="search">
+                          <input class="search_input" name="ssse" placeholder="搜尋" type="text" />
+                          <input class="search_btn" type="image" src="http://3.bp.blogspot.com/-fpi6-9d3JpQ/Vo0LXN6iUDI/AAAAAAAANPA/89JVfzXNtXg/s1600/search-icon.png" />
+                          </form>
+              
+                    </ul>
+                </div>
+            </section>
+                
+            <section class="py-5">
+                <div class="flex justify-content-between">
+                    <ul class="flex100">
+                        <li>
+                            <a href="f5-1.html" class="menu2">Electric Caldron</a>
+                        </li>
+
+                        <li>
+                            <a href="f5-2.html" class="menu2">Microwave</a>
+                        </li>
+
+                        <li>
+                            <a href="f5-3.html" class="menu2">Oven</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+        <!--中間內容物-->
+        <div class="container4">
+            <h1 style="text-align: center;color:rgb(53, 92, 128);">Feedback</h1>
+            <br>
+            Name  <input size="60%" class="input1" id="in_name"></input> <!--名字輸入-->   
+                    
+            <div style="display: flex;">
+              <input size="60%" class="input2" id="in_msg"></input><!--訊息輸入-->  
+              <label class="input3"><!--圖片匯入-->
+                <input id="img" style="display:none;" type="file" name="file">
+                <img src="pic11.jpg" class="input3">
+                </label>
+              <div class="but1" onclick="Submit()">Submit</div>
+            </div>
+           
+            <div class="down1" id="down1"  > <!--留言區-->
+                 <div class="msg_box"><!--訊息區塊-->
+                   <div class="box_s">
+                    <h3 class='msg'>陳大明</h3><!--名字-->
+                    <p class='msg'>做法簡單又很方便！</p><!--訊息-->
+                  </div>
+                  <div>
+                    <img id="showimg" src='pic06.jpg' class="msg_img"/><!--縮圖-->
+                   </div>
+                </div>
+                
+               
+         </div>   
+        </div> 
+
+        <!--footer-->
+        <section>
+                <div class="footer mt-4 py-8">
+                    <div class="container">
+                    <div class="flex justify-content-between" style="width: 60%; margin-left: 15%;">
+                          <ul>
+                            <li>
+                              <a href="f6.html" class="menu">About Us</a>
+                            </li>
+                            <li>
+                              <a href="f2.html" class="menu">Weekly Top 9</a>
+                            </li>
+                          </ul>
+                          <div class="text-right text-white">
+                              <a href="f1.html" style="font-size:30px; font-weight: bold;">＃ 真 煮 單</a>
+                            <p>Make you cook easily.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+            </section>
+        
+    </body>
+    <script src="msg_board.js"></script>
+</html>
